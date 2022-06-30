@@ -1,5 +1,5 @@
 {% set name = "flakeheaven" %}
-{% set version = "1.0.2" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flakeheaven-{{ version }}.tar.gz
-  sha256: 3b1d49483fa3185f1117f85c22377d4d150425ea1fe007e720e6fdb6cd590950
+  sha256: 843a594059c7fdab2f01bce5c872717ac0b8b54cc0311283e66c80eac5031551
 
 build:
   entry_points:
@@ -21,7 +21,7 @@ requirements:
   host:
     - pip
     - poetry
-    - python >=3.6.2
+    - python >=3.7.0
   run:
     - colorama
     - entrypoints
@@ -29,7 +29,7 @@ requirements:
     # Only required for [py<38] but always include so this can be noarch: python
     - importlib-metadata >=1.0,<2.0
     - pygments
-    - python >=3.6.2
+    - python >=3.7.0
     - toml
     - urllib3
 
