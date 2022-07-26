@@ -1,5 +1,5 @@
 {% set name = "flakeheaven" %}
-{% set version = "2.0.0" %}
+{% set version = "2.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flakeheaven-{{ version }}.tar.gz
-  sha256: 843a594059c7fdab2f01bce5c872717ac0b8b54cc0311283e66c80eac5031551
+  sha256: b51cf75f95c834a0dbb7a37d5e4f42f3f236e8b98f8bc199d99f4b4a138d4fcc
 
 build:
   entry_points:
