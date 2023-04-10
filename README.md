@@ -1,11 +1,11 @@
-About flakeheaven
-=================
+About flakeheaven-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flakeheaven-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/flakeheaven/flakeheaven
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flakeheaven-feedstock/blob/main/LICENSE.txt)
 
 Summary: FlakeHeaven is a [Flake8](https://gitlab.com/pycqa/flake8) wrapper to make it cool.
 
